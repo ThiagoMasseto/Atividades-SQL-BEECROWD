@@ -61,6 +61,7 @@ WHERE
 ## Desafios Nivel 2
 ### Desafio 2613 - Filmes em Promoção
 <img width="1086" height="453" alt="Image" src="https://github.com/user-attachments/assets/ec86c967-ff3d-4e7f-b8fd-fcd36bdf7653" />
+
 ``` sql
 select
     a.id,
@@ -72,7 +73,7 @@ where ar.value < 2.00;
 ```
 
 ## Desafio 2619 - Super Luxo
-<img width="1081" height="306" alt="Image" src="https://github.com/user-attachments/assets/1e3e777f-eda9-4865-a40d-0c3cd92dc9b1" />
+<img width="1088" height="306" alt="Image" src="https://github.com/user-attachments/assets/99d409f4-ca4d-4be9-bae0-71f1c843079f" />
 
 ``` sql
 select

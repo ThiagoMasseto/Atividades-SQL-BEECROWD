@@ -94,3 +94,30 @@ where
 	a.price > 1000
 	and c.name = 'Super Luxury';
 ```
+
+## Desafios Nivel 3
+### Desafio 2606 - Categorias
+<img width="1080" height="308" alt="Image" src="https://github.com/user-attachments/assets/a829782a-9e78-4dad-a8b7-997f0394962c" />
+
+``` sql
+select
+p.id,
+p.name
+from products p
+join categories c
+on p.id_categories = c.id
+where c.name like 'super%';
+```
+
+## Desafio 2621 - Quantidades Entre 10 e 20
+<img width="1081" height="306" alt="Image" src="https://github.com/user-attachments/assets/1e3e777f-eda9-4865-a40d-0c3cd92dc9b1" />
+
+``` sql
+select
+p.name
+from products p
+join providers pr
+on p.id_providers = pr.id
+where p.amount between 10 and 20
+and pr.name like 'P%';
+```

@@ -121,3 +121,23 @@ on p.id_providers = pr.id
 where p.amount between 10 and 20
 and pr.name like 'P%';
 ```
+
+## Desafio Nivel 5
+### Desafio 2616 - Nenhuma locação
+<img width="1080" height="308" alt="Image" src="https://github.com/user-attachments/assets/a829782a-9e78-4dad-a8b7-997f0394962c" />
+
+``` sql
+SELECT
+c.id,
+c.name
+FROM
+customers c
+LEFT JOIN
+locations l
+ON
+c.id = l.id_customers
+WHERE
+l.id_customers IS NULL
+ORDER BY
+c.id;
+```

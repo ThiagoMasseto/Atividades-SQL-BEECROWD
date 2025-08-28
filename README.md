@@ -59,7 +59,7 @@ WHERE
 ```
 
 ## Desafios Nivel 2 ✔
-### Desafio 2613 - Filmes em Promoção
+### Desafio 2613 - Filmes em Promoção 💋
 <img width="1086" height="453" alt="Image" src="https://github.com/user-attachments/assets/ec86c967-ff3d-4e7f-b8fd-fcd36bdf7653" />
 
 ``` sql

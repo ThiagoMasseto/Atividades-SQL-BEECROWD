@@ -125,6 +125,7 @@ and pr.name like 'P%';
 ## Desafio Nivel 5
 ### Desafio 2616 - Nenhuma locação
 <img width="1086" height="305" alt="Image" src="https://github.com/user-attachments/assets/389a427a-b7e5-46c2-b1bb-295493a72cd7" />
+
 ``` sql
 SELECT
 c.id,

@@ -57,3 +57,40 @@ JOIN
 WHERE 
     pr.name = 'Ajax SA';
 ```
+
+## Desafios Nivel 2
+### Desafio 2613 - Filmes em Promoção
+<img width="1080" height="308" alt="Image" src="https://github.com/user-attachments/assets/a829782a-9e78-4dad-a8b7-997f0394962c" />
+
+``` sql
+select
+    a.id,
+    a.name
+from movies a
+join prices ar
+on a.id_prices = ar.id
+where ar.value < 2.00;
+```
+
+## Desafio 2619 - Super Luxo
+<img width="1081" height="306" alt="Image" src="https://github.com/user-attachments/assets/1e3e777f-eda9-4865-a40d-0c3cd92dc9b1" />
+
+``` sql
+select
+a.name as product_name,
+ar.name as provider_name,
+a.price
+from 
+	products a
+join 
+	providers ar
+on 
+	a.id_providers = ar.id
+join 
+	categories c
+on 
+	a.id_categories = c.id
+where 
+	a.price > 1000
+	and c.name = 'Super Luxury';
+```

@@ -97,7 +97,7 @@ where
 
 ## Desafios Nivel 3
 ### Desafio 2606 - Categorias
-<img width="1080" height="308" alt="Image" src="https://github.com/user-attachments/assets/a829782a-9e78-4dad-a8b7-997f0394962c" />
+<img width="1086" height="311" alt="Image" src="https://github.com/user-attachments/assets/a6ced2ea-1007-4522-91b3-c047e72c1a9d" />
 
 ``` sql
 select

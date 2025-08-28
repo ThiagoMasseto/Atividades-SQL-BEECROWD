@@ -32,6 +32,7 @@ from products;
 ```
 ## Desafio 2615- Expandindo Negocio
 <img width="1080" height="307" alt="Image" src="https://github.com/user-attachments/assets/1086f045-3d4e-4faf-8e20-74685cb78303" />
+
 ``` sql
 select 
      city 
@@ -40,8 +41,9 @@ from
 group by
     city;
 ```
+
 ## Desafio 2617 - Fornecedor Ajax SA
-<img width="1081" height="306" alt="Image" src="https://github.com/user-attachments/assets/1e3e777f-eda9-4865-a40d-0c3cd92dc9b1" />
+<img width="1076" height="294" alt="Image" src="https://github.com/user-attachments/assets/60b7f78a-444f-497d-aa46-e999952265d0" />
 
 ``` sql
 SELECT 

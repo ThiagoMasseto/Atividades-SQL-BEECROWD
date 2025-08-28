@@ -60,8 +60,7 @@ WHERE
 
 ## Desafios Nivel 2
 ### Desafio 2613 - Filmes em Promoção
-<img width="1080" height="308" alt="Image" src="https://github.com/user-attachments/assets/a829782a-9e78-4dad-a8b7-997f0394962c" />
-
+<img width="1086" height="453" alt="Image" src="https://github.com/user-attachments/assets/ec86c967-ff3d-4e7f-b8fd-fcd36bdf7653" />
 ``` sql
 select
     a.id,

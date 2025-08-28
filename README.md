@@ -1,5 +1,5 @@
 # Atividades-SQL-BEECROWD
-Atividades realizadas no site da beecrowd para aperfeicoamento das habilidades em SQL.
+10 Atividades realizadas no site da beecrowd para aperfeicoamento das habilidades em SQL.
 ## Desafios Nivel 1 ✔
 ### Desafio 2603- Endereço dos clientes 😃
 <img width="1080" height="308" alt="Image" src="https://github.com/user-attachments/assets/a829782a-9e78-4dad-a8b7-997f0394962c" />
@@ -12,6 +12,8 @@ from
 where
     city='Porto Alegre'
 ```
+<hr>
+
 ## Desafio 2607 - Cidades em Ordem Alfabética 😎
 <img width="1081" height="306" alt="Image" src="https://github.com/user-attachments/assets/1e3e777f-eda9-4865-a40d-0c3cd92dc9b1" />
 
@@ -22,6 +24,8 @@ from
     providers
 order by city asc
 ```
+<hr>
+
 ### Desafio 2608 - Maior e Menor Preço 😁
 <img width="1086" height="307" alt="Image" src="https://github.com/user-attachments/assets/578c003f-ce9f-4e35-a8d9-9dfb427328c2" />
 
@@ -30,6 +34,8 @@ select
 max(price),min(price)
 from products;
 ```
+<hr>
+
 ## Desafio 2615- Expandindo Negocio 👏
 <img width="1080" height="307" alt="Image" src="https://github.com/user-attachments/assets/1086f045-3d4e-4faf-8e20-74685cb78303" />
 
@@ -41,6 +47,7 @@ from
 group by
     city;
 ```
+<hr>
 
 ## Desafio 2617 - Fornecedor Ajax SA 🌹
 <img width="1076" height="294" alt="Image" src="https://github.com/user-attachments/assets/60b7f78a-444f-497d-aa46-e999952265d0" />
@@ -57,6 +64,7 @@ JOIN
 WHERE 
     pr.name = 'Ajax SA';
 ```
+<hr>
 
 ## Desafios Nivel 2 ✔
 ### Desafio 2613 - Filmes em Promoção 💋
@@ -71,6 +79,7 @@ join prices ar
 on a.id_prices = ar.id
 where ar.value < 2.00;
 ```
+<hr>
 
 ## Desafio 2619 - Super Luxo 🐱‍🏍
 <img width="1088" height="306" alt="Image" src="https://github.com/user-attachments/assets/99d409f4-ca4d-4be9-bae0-71f1c843079f" />
@@ -94,6 +103,7 @@ where
 	a.price > 1000
 	and c.name = 'Super Luxury';
 ```
+<hr>
 
 ## Desafios Nivel 3 ✔
 ### Desafio 2606 - Categorias 👌
@@ -108,6 +118,7 @@ join categories c
 on p.id_categories = c.id
 where c.name like 'super%';
 ```
+<hr>
 
 ## Desafio 2621 - Quantidades Entre 10 e 20 🤞
 <img width="1086" height="320" alt="Image" src="https://github.com/user-attachments/assets/48eee679-b441-4d62-8f9f-36c51998a9d8" />
@@ -121,6 +132,7 @@ on p.id_providers = pr.id
 where p.amount between 10 and 20
 and pr.name like 'P%';
 ```
+<hr>
 
 ## Desafio Nivel 5 ✔
 ### Desafio 2616 - Nenhuma locação ✨

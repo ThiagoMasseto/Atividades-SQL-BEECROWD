@@ -110,7 +110,7 @@ where c.name like 'super%';
 ```
 
 ## Desafio 2621 - Quantidades Entre 10 e 20
-<img width="1081" height="306" alt="Image" src="https://github.com/user-attachments/assets/1e3e777f-eda9-4865-a40d-0c3cd92dc9b1" />
+<img width="1086" height="320" alt="Image" src="https://github.com/user-attachments/assets/48eee679-b441-4d62-8f9f-36c51998a9d8" />
 
 ``` sql
 select
